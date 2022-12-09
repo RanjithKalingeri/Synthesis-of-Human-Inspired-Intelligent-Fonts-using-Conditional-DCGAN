@@ -1,0 +1,16 @@
+/usr/local/lib/python3.7/dist-packages/scipy/linalg/decomp_schur.py:286: RuntimeWarning: divide by zero encountered in cfloat_scalars
+  c = mu[0] / r
+/usr/local/lib/python3.7/dist-packages/scipy/linalg/decomp_schur.py:287: RuntimeWarning: divide by zero encountered in cfloat_scalars
+  s = T[m, m-1] / r
+/usr/local/lib/python3.7/dist-packages/scipy/linalg/decomp_schur.py:287: RuntimeWarning: invalid value encountered in cfloat_scalars
+  s = T[m, m-1] / r
+/usr/local/lib/python3.7/dist-packages/scipy/linalg/_matfuncs_sqrtm.py:88: RuntimeWarning: invalid value encountered in cdouble_scalars
+  R[i, j] = (T[i, j] - s) / denom
+[0.0, nan, nan]
+fid at base is nan
+--------------------------------------
+[0.2926221787929535, 53.27164857114545, 53.56427001953125]
+fid at real images base is 53.56427001953125
+--------------------------------------
+[67.7452392578125, 137624.99945995797, 137692.75]
+fid of dcgan is 137692.75
